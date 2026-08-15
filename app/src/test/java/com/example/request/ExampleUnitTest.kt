@@ -1,17 +1,19 @@
 package com.example.request
 
+import com.example.request.data.seed.CompanySeedData
+import com.example.request.domain.model.LeadStatus
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
 import org.junit.Test
 
-import org.junit.Assert.*
-
-/**
- * Example local unit test, which will execute on the development machine (host).
- *
- * See [testing documentation](http://d.android.com/tools/testing).
- */
 class ExampleUnitTest {
     @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+    fun tierASeedDataContainsSevenNewCompaniesOrderedByPriority() {
+        val companies = CompanySeedData.tierACompanies
+
+        assertEquals(7, companies.size)
+        assertEquals((1..7).toList(), companies.map { it.priority })
+        assertTrue(companies.all { it.status == LeadStatus.NEW })
+        assertTrue(companies.all { it.website.startsWith("https://") })
     }
 }
