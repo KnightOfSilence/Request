@@ -1,0 +1,150 @@
+{
+  "generatedAt": "2026-08-17",
+  "sourceResource": "app/src/main/res/raw/global_organic_soy_companies.json",
+  "description": "Email-ready company list generated from allCompanies entries that contain at least one contactEmail.",
+  "totalCompaniesWithEmail": 10,
+  "companies": [
+    {
+      "id": "GOS-022",
+      "country": "China",
+      "companyName": "Tianwei Group",
+      "contactEmail": [
+        "tianwei@tianweibiotech.com",
+        "export@tianweibiotech.com"
+      ],
+      "verifiedUrl": "https://www.tianwei-group.com/showroom/organic-extruded-soybean-meal/",
+      "marketSector": "Feed / Processor / Trader",
+      "potentialContactPoint": "Export Manager / Organic Soy Products Sales / Raw Materials Sales",
+      "verificationStatus": "verified",
+      "buyingEvidence": "Official product page lists Organic Extruded Soybean Meal and Organic Soy Meal made from non-GMO and organic Chinese soybeans. The same page states Organic Soy Meal is processed through traditional low-temperature pressing technology, and the company publishes export contact emails.",
+      "verificationNote": null
+    },
+    {
+      "id": "GOS-023",
+      "country": "India",
+      "companyName": "Nature Bio Foods",
+      "contactEmail": [
+        "info@naturebiofoods.organic"
+      ],
+      "verifiedUrl": "https://naturebiofoods.organic/organic-soybean-meal/",
+      "marketSector": "Feed / Processor / Trader",
+      "potentialContactPoint": "Export Sales Manager / Organic Soybean Meal Sales / Procurement Manager",
+      "verificationStatus": "verified",
+      "buyingEvidence": "Official product page says organic soybean meal is derived from organically grown GMO-free soybeans and mechanically processed. It also states the extraction process is completely non-chemical and does not involve harmful chemicals like hexane.",
+      "verificationNote": null
+    },
+    {
+      "id": "GOS-025",
+      "country": "India",
+      "companyName": "Anand Agro",
+      "contactEmail": [
+        "helpdesk@anandagro.com"
+      ],
+      "verifiedUrl": "https://www.anandagro.com/project-details.html",
+      "marketSector": "Feed / Processor",
+      "potentialContactPoint": "Export Manager / Organic Soybean Processing Sales / Raw Materials Buyer",
+      "verificationStatus": "verified",
+      "buyingEvidence": "Official organic soybean processing page lists organic soya meal and an extruder-based plant with FSSAI, APEDA, GMP-PLUS, NPOP and NOP certifications. The described process sends extruded material through an expeller to separate crude oil and soya oil cake, and the page states the process is chemical-free.",
+      "verificationNote": null
+    },
+    {
+      "id": "GOS-026",
+      "country": "South Korea",
+      "companyName": "HANPEL TECH CO., LTD",
+      "contactEmail": [
+        "hp@hanpel.com"
+      ],
+      "verifiedUrl": "https://hanpel.com/en",
+      "marketSector": "Feed / Protein Ingredients / Trader",
+      "potentialContactPoint": "Purchasing Manager / Feed Ingredients Manager / Functional Protein Sales",
+      "verificationStatus": "user_requested_verified",
+      "buyingEvidence": "Official site lists soybean powder with crude protein minimum 50 percent and functional protein products, and presents import-to-supply business activity. The official site publishes a business email for contact. Added to verifiedCompanies by user request even though the visible official page does not explicitly confirm organic soybean meal plus mechanical, expeller, extrusion-expelling, or solvent-free processing.",
+      "verificationNote": "User requested inclusion in verifiedCompanies; official organic + mechanical/expeller evidence remains incomplete."
+    },
+    {
+      "id": "GOS-027",
+      "country": "South Korea",
+      "companyName": "K-INGS Co., Ltd.",
+      "contactEmail": [
+        "kings@k-ings.co.kr"
+      ],
+      "verifiedUrl": "https://k-ings.co.kr/02/list.php?b_category1=5",
+      "marketSector": "Feed / Trader",
+      "potentialContactPoint": "Feed Raw Materials Buyer / Procurement Manager / Import Manager",
+      "verificationStatus": "user_requested_verified",
+      "buyingEvidence": "Official product page lists soybean meal under feed raw materials and provides company contact details. Added to verifiedCompanies by user request even though the page does not explicitly confirm organic certification or mechanical, expeller, extrusion-expelling, or solvent-free processing.",
+      "verificationNote": "User requested inclusion in verifiedCompanies; official organic + mechanical/expeller evidence remains incomplete."
+    },
+    {
+      "id": "GOS-028",
+      "country": "Pakistan",
+      "companyName": "Organex Pvt Ltd",
+      "contactEmail": [
+        "info@organex.com.pk"
+      ],
+      "verifiedUrl": "https://organex.com.pk/",
+      "marketSector": "Trader / Feed",
+      "potentialContactPoint": "Export Manager / Feed Ingredients Sales / Business Development",
+      "verificationStatus": "user_requested_verified",
+      "buyingEvidence": "Official site positions Organex as an organic export trading company and says it has supplied animal feed ingredients including soybean meal, maize, barley, wheat bran, rice polish and cottonseed cake. Added to verifiedCompanies by user request even though organic soybean meal produced by mechanical pressing, expeller pressing, extrusion-expelling, or solvent-free processing is not explicitly confirmed.",
+      "verificationNote": "User requested inclusion in verifiedCompanies; official organic + mechanical/expeller evidence remains incomplete."
+    },
+    {
+      "id": "GOS-029",
+      "country": "Pakistan",
+      "companyName": "Khalis Manufacturing / Khalis Group",
+      "contactEmail": [
+        "toi@khalisgroup.com"
+      ],
+      "verifiedUrl": "https://en.khalisgroup.com/khalis-Manufacturing.html",
+      "marketSector": "Feed / Processor",
+      "potentialContactPoint": "Raw Materials Procurement / Export Sales / Oilseed Processing Manager",
+      "verificationStatus": "user_requested_verified",
+      "buyingEvidence": "Official manufacturing page says the company crushes soybean, canola and sunflower seed, and manufactures soybean oil, meal and hi-pro meals. It mentions distilling, expelling, refining and processing edible oils. Added to verifiedCompanies by user request even though organic soybean meal and solvent-free organic expeller meal are not explicitly confirmed.",
+      "verificationNote": "User requested inclusion in verifiedCompanies; official organic + mechanical/expeller evidence remains incomplete."
+    },
+    {
+      "id": null,
+      "country": "India",
+      "companyName": "Green Miller International",
+      "contactEmail": [
+        "supply@greenmiller.com"
+      ],
+      "verifiedUrl": "https://greenmiller.com/organic-soy-meal/",
+      "marketSector": "Feed / Trader",
+      "potentialContactPoint": "Supply Manager / Export Sales Manager / Organic Feed Ingredients Sales",
+      "verificationStatus": "needs_follow_up",
+      "buyingEvidence": "Official page says Green Miller supplies certified organic feed ingredients and Organic Soy Meal produced from organic non-GMO soybean for livestock, poultry and cattle feed. Missing proof: the visible official text does not explicitly confirm mechanical pressing, expeller pressing, extrusion-expelling, or solvent-free processing.",
+      "verificationNote": null
+    },
+    {
+      "id": null,
+      "country": "India",
+      "companyName": "Earth Biochem",
+      "contactEmail": [
+        "anirudh@earthbiochem.com",
+        "info@earthbiochem.com"
+      ],
+      "verifiedUrl": "https://organicsoyabean.com/",
+      "marketSector": "Feed / Processor / Trader",
+      "potentialContactPoint": "Export Manager / Organic Soy Meal Sales / Business Development",
+      "verificationStatus": "needs_follow_up",
+      "buyingEvidence": "Official site says Earth Biochem manufactures and exports Organic Soybean Meal, soyabean seeds and by-products from India. It lists Soy Meal for food and feed grade plus full-fat soybean meal under organic agri products. Missing proof: explicit mechanical/expeller/solvent-free processing evidence.",
+      "verificationNote": null
+    },
+    {
+      "id": null,
+      "country": "India",
+      "companyName": "SVF Soya Pvt. Ltd.",
+      "contactEmail": [
+        "support@svfsoya.com"
+      ],
+      "verifiedUrl": "https://www.svfsoya.com/products/soya-meal",
+      "marketSector": "Feed / Processor",
+      "potentialContactPoint": "Sales Manager / Feed Ingredients Sales / Procurement Manager",
+      "verificationStatus": "needs_follow_up",
+      "buyingEvidence": "Official product page describes soya meal for poultry, aqua and cattle feed produced through a chemical-free production flow with mechanical extraction, cold-press expeller route and zero chemical solvent route. Missing proof: certified organic status for this specific product page.",
+      "verificationNote": null
+    }
+  ]
+}
