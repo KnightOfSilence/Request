@@ -965,7 +965,7 @@
     }
   ],
   "countryLists": {
-    "southKorea": [
+    "southKoreaAndPakistan": [
       {
         "id": "GOS-026",
         "verificationStatus": "user_requested_verified",
@@ -999,9 +999,7 @@
         ],
         "reason": null,
         "verificationNote": "User requested inclusion in verifiedCompanies; official organic + mechanical/expeller evidence remains incomplete."
-      }
-    ],
-    "pakistan": [
+      },
       {
         "id": "GOS-028",
         "verificationStatus": "user_requested_verified",
