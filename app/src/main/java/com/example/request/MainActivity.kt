@@ -84,6 +84,7 @@ class MainActivity : ComponentActivity() {
 private fun CompaniesRoute(repository: CompanyRepository) {
     val companies by repository.observeCompanies().collectAsState(initial = emptyList())
     var selectedCompanyId by remember { mutableStateOf<Long?>(null) }
+    var emailPreviewCompanyId by remember { mutableStateOf<Long?>(null) }
 
     LaunchedEffect(repository) {
         repository.seedIfEmpty()
@@ -93,7 +94,17 @@ private fun CompaniesRoute(repository: CompanyRepository) {
         companies.firstOrNull { company -> company.id == id }
     }
 
-    if (selectedCompany == null) {
+    val emailPreviewCompany = emailPreviewCompanyId?.let { id ->
+        companies.firstOrNull { company -> company.id == id }
+    }
+
+    if (emailPreviewCompany != null) {
+        EmailPreviewScreen(
+            company = emailPreviewCompany,
+            repository = repository,
+            onBack = { emailPreviewCompanyId = null },
+        )
+    } else if (selectedCompany == null) {
         CompaniesScreen(
             companies = companies,
             onCompanySelected = { selectedCompanyId = it.id },
@@ -103,6 +114,7 @@ private fun CompaniesRoute(repository: CompanyRepository) {
             company = selectedCompany,
             repository = repository,
             onBack = { selectedCompanyId = null },
+            onPrepareEmail = { emailPreviewCompanyId = selectedCompany.id },
         )
     }
 }
@@ -318,6 +330,7 @@ private fun CompanyDetailScreen(
     company: CompanyEntity,
     repository: CompanyRepository,
     onBack: () -> Unit,
+    onPrepareEmail: () -> Unit,
 ) {
     val coroutineScope = rememberCoroutineScope()
     var contactName by remember(company.id) { mutableStateOf(company.contactName.orEmpty()) }
@@ -451,10 +464,100 @@ private fun CompanyDetailScreen(
                                 ),
                             )
                             selectedStatus = LeadStatus.READY
+                            onPrepareEmail()
                         }
                     },
                 ) {
                     Text(text = "Prepare email")
+                }
+            }
+
+            LetterheadFooterPreview()
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun EmailPreviewScreen(
+    company: CompanyEntity,
+    repository: CompanyRepository,
+    onBack: () -> Unit,
+) {
+    val coroutineScope = rememberCoroutineScope()
+    var subject by remember(company.id) { mutableStateOf(defaultEmailSubject(company)) }
+    var body by remember(company.id) { mutableStateOf(defaultEmailBody(company)) }
+
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                navigationIcon = {
+                    TextButton(onClick = onBack) {
+                        Text(text = "Back")
+                    }
+                },
+                title = {
+                    Column {
+                        Text(text = "Email preview")
+                        Text(
+                            text = company.name,
+                            style = MaterialTheme.typography.labelMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            maxLines = 1,
+                            overflow = TextOverflow.Ellipsis,
+                        )
+                    }
+                },
+            )
+        },
+    ) { innerPadding ->
+        Column(
+            verticalArrangement = Arrangement.spacedBy(14.dp),
+            modifier = Modifier
+                .padding(innerPadding)
+                .fillMaxSize()
+                .verticalScroll(rememberScrollState())
+                .padding(horizontal = 16.dp, vertical = 12.dp),
+        ) {
+            LetterheadPreview()
+
+            OutlinedTextField(
+                value = company.email.orEmpty(),
+                onValueChange = {},
+                readOnly = true,
+                label = { Text(text = "To") },
+                modifier = Modifier.fillMaxWidth(),
+                singleLine = true,
+            )
+            OutlinedTextField(
+                value = subject,
+                onValueChange = { subject = it },
+                label = { Text(text = "Subject") },
+                modifier = Modifier.fillMaxWidth(),
+                singleLine = true,
+            )
+            OutlinedTextField(
+                value = body,
+                onValueChange = { body = it },
+                label = { Text(text = "Letter text") },
+                modifier = Modifier.fillMaxWidth(),
+                minLines = 14,
+                keyboardOptions = KeyboardOptions(
+                    capitalization = KeyboardCapitalization.Sentences,
+                ),
+            )
+
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Button(
+                    onClick = {
+                        coroutineScope.launch {
+                            repository.saveCompany(
+                                company.copy(status = LeadStatus.READY),
+                            )
+                        }
+                    },
+                ) {
+                    Text(text = "Save draft")
                 }
             }
 
@@ -581,3 +684,24 @@ private fun LeadStatus.displayName(): String =
         LeadStatus.REPLIED -> "Replied"
         LeadStatus.NOT_INTERESTED -> "Not interested"
     }
+
+private fun defaultEmailSubject(company: CompanyEntity): String =
+    "Organic soybean meal supply for ${company.name}"
+
+private fun defaultEmailBody(company: CompanyEntity): String {
+    val greeting = company.contactName?.takeIf { it.isNotBlank() }
+        ?: company.contactRole
+    return """
+        Dear $greeting,
+
+        [Your final outreach text will be added here in the next commit.]
+
+        Company context:
+        ${company.name}
+        ${company.country}
+        ${company.buyingEvidence}
+
+        Best regards,
+        IMPEX AGRO TRADE DOO NOVI SAD
+    """.trimIndent()
+}
