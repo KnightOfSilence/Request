@@ -296,13 +296,22 @@
       "country": "India",
       "companyName": "Narmada / solvent-extraction candidates",
       "reason": "Excluded where official or visible product information suggests solvent or hexane extraction, even if another listing mentions expeller processing.",
-      "referenceUrl": null
+      "referenceUrl": null,
+      "verifiedUrl": null,
+      "marketSector": "Feed / Processor / Trader",
+      "buyingEvidence": "Visible product information is contradictory: one part mentions expeller processed and solvent-free, while another says the meal is made by removing fat with an organic solvent such as hexane. This conflicts with the solvent-free criterion.",
+      "potentialContactPoint": "Export Manager / Feed Ingredients Sales / Quality Manager",
+      "contactEmail": []
     },
     {
       "country": "India",
       "companyName": "Green Miller International",
       "reason": "Official pages publish supply@greenmiller.com and confirm certified organic feed ingredients and organic soy meal, but the visible official text does not explicitly say the soy meal is produced by mechanical pressing, expeller pressing, extrusion-expelling, or solvent-free processing.",
       "referenceUrl": "https://greenmiller.com/organic-soy-meal/",
+      "verifiedUrl": "https://greenmiller.com/organic-soy-meal/",
+      "marketSector": "Feed / Trader",
+      "buyingEvidence": "Official page says Green Miller supplies certified organic feed ingredients and Organic Soy Meal produced from organic non-GMO soybean for livestock, poultry and cattle feed. Missing proof: the visible official text does not explicitly confirm mechanical pressing, expeller pressing, extrusion-expelling, or solvent-free processing.",
+      "potentialContactPoint": "Supply Manager / Export Sales Manager / Organic Feed Ingredients Sales",
       "contactEmail": [
         "supply@greenmiller.com"
       ]
@@ -312,6 +321,10 @@
       "companyName": "Earth Biochem",
       "reason": "Official site publishes anirudh@earthbiochem.com and info@earthbiochem.com and says the company manufactures and exports organic soybean meal and soy by-products, but the visible official evidence does not explicitly confirm mechanical pressing, expeller pressing, extrusion-expelling, or solvent-free processing.",
       "referenceUrl": "https://organicsoyabean.com/",
+      "verifiedUrl": "https://organicsoyabean.com/",
+      "marketSector": "Feed / Processor / Trader",
+      "buyingEvidence": "Official site says Earth Biochem manufactures and exports Organic Soybean Meal, soyabean seeds and by-products from India. It lists Soy Meal for food and feed grade plus full-fat soybean meal under organic agri products. Missing proof: explicit mechanical/expeller/solvent-free processing evidence.",
+      "potentialContactPoint": "Export Manager / Organic Soy Meal Sales / Business Development",
       "contactEmail": [
         "anirudh@earthbiochem.com",
         "info@earthbiochem.com"
@@ -322,6 +335,10 @@
       "companyName": "SVF Soya Pvt. Ltd.",
       "reason": "Official product page publishes support@svfsoya.com and strongly confirms mechanical extraction, cold-press expeller route and zero chemical solvent route, but the visible official product page positions the item as non-GMO rather than certified organic.",
       "referenceUrl": "https://www.svfsoya.com/products/soya-meal",
+      "verifiedUrl": "https://www.svfsoya.com/products/soya-meal",
+      "marketSector": "Feed / Processor",
+      "buyingEvidence": "Official product page describes soya meal for poultry, aqua and cattle feed produced through a chemical-free production flow with mechanical extraction, cold-press expeller route and zero chemical solvent route. Missing proof: certified organic status for this specific product page.",
+      "potentialContactPoint": "Sales Manager / Feed Ingredients Sales / Procurement Manager",
       "contactEmail": [
         "support@svfsoya.com"
       ]
@@ -331,6 +348,10 @@
       "companyName": "HANPEL TECH CO., LTD",
       "reason": "Official site lists soybean powder and functional protein activity and publishes hp@hanpel.com, but the visible official evidence does not explicitly confirm organic soybean meal plus mechanical, expeller, extrusion-expelling, or solvent-free processing.",
       "referenceUrl": "https://hanpel.com/en",
+      "verifiedUrl": "https://hanpel.com/en",
+      "marketSector": "Feed / Protein Ingredients / Trader",
+      "buyingEvidence": "Official site lists soybean powder with crude protein minimum 50 percent and functional protein products, and presents import-to-supply business activity. Missing proof: organic soybean meal and mechanical/expeller/solvent-free processing are not explicitly confirmed on the visible official page.",
+      "potentialContactPoint": "Purchasing Manager / Feed Ingredients Manager / Functional Protein Sales",
       "contactEmail": [
         "hp@hanpel.com"
       ]
@@ -340,6 +361,10 @@
       "companyName": "K-INGS Co., Ltd.",
       "reason": "Official product page lists soybean meal under feed products and publishes kings@k-ings.co.kr, but it does not explicitly confirm organic certification or mechanical/expeller/solvent-free processing.",
       "referenceUrl": "https://k-ings.co.kr/02/list.php?b_category1=5",
+      "verifiedUrl": "https://k-ings.co.kr/02/list.php?b_category1=5",
+      "marketSector": "Feed / Trader",
+      "buyingEvidence": "Official product page lists soybean meal under feed raw materials and provides company contact details. Missing proof: the page does not explicitly confirm organic certification or mechanical, expeller, extrusion-expelling, or solvent-free processing.",
+      "potentialContactPoint": "Feed Raw Materials Buyer / Procurement Manager / Import Manager",
       "contactEmail": [
         "kings@k-ings.co.kr"
       ]
@@ -349,6 +374,10 @@
       "companyName": "Organex Pvt Ltd",
       "reason": "Official site presents organic export activity and says the company has supplied soybean meal among animal feed ingredients, with info@organex.com.pk published. It does not explicitly confirm organic soybean meal produced by mechanical pressing or expeller processing.",
       "referenceUrl": "https://organex.com.pk/",
+      "verifiedUrl": "https://organex.com.pk/",
+      "marketSector": "Trader / Feed",
+      "buyingEvidence": "Official site positions Organex as an organic export trading company and says it has supplied animal feed ingredients including soybean meal, maize, barley, wheat bran, rice polish and cottonseed cake. Missing proof: organic soybean meal produced by mechanical pressing, expeller pressing, extrusion-expelling, or solvent-free processing.",
+      "potentialContactPoint": "Export Manager / Feed Ingredients Sales / Business Development",
       "contactEmail": [
         "info@organex.com.pk"
       ]
@@ -358,6 +387,10 @@
       "companyName": "Khalis Manufacturing / Khalis Group",
       "reason": "Official page says the company manufactures soybean oil and meal and mentions expelling/refining/processing, with toi@khalisgroup.com published. It does not explicitly confirm organic soybean meal or solvent-free organic expeller meal.",
       "referenceUrl": "https://en.khalisgroup.com/khalis-Manufacturing.html",
+      "verifiedUrl": "https://en.khalisgroup.com/khalis-Manufacturing.html",
+      "marketSector": "Feed / Processor",
+      "buyingEvidence": "Official manufacturing page says the company crushes soybean, canola and sunflower seed, and manufactures soybean oil, meal and hi-pro meals. It mentions distilling, expelling, refining and processing edible oils. Missing proof: organic soybean meal and solvent-free organic expeller meal are not explicitly confirmed.",
+      "potentialContactPoint": "Raw Materials Procurement / Export Sales / Oilseed Processing Manager",
       "contactEmail": [
         "toi@khalisgroup.com"
       ]
