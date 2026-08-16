@@ -8,4 +8,4 @@ Each meaningful stage is developed in a separate branch and reviewed through a s
 
 | Stage | Branch | Pull Request | Code | Status |
 | --- | --- | --- | --- | --- |
-| Company database and Tier-A seed data | `commit-02-company-database-v2` | [PR #2](https://github.com/KnightOfSilence/Request/pull/2) | [Branch code](https://github.com/KnightOfSilence/Request/tree/commit-02-company-database-v2), [Files changed](https://github.com/KnightOfSilence/Request/pull/2/files) | Open |
+| Company database and Tier-A seed data | `commit-02-company-database-v2` | [PR #2](https://github.com/KnightOfSilence/Request/pull/2) | [Branch code](https://github.com/KnightOfSilence/Request/tree/commit-02-company-database-v2), [Files changed](https://github.com/KnightOfSilence/Request/pull/2/files) | Merged |
