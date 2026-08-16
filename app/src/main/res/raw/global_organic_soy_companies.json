@@ -1,0 +1,251 @@
+{
+  "generatedAt": "2026-08-16",
+  "scope": "Worldwide official-source leads for organic soy products produced by mechanical pressing, expeller pressing, extrusion-expelling, or cold pressing. This file includes the previous Tier-A companies already seeded in the app.",
+  "qualityRule": "A company is listed under verifiedCompanies only when an official company page or official product page supports organic soy activity plus mechanical/expeller/cold-press evidence, or the previous Tier-A seed already contained that verified evidence. Candidates without explicit organic plus mechanical/expeller evidence are kept under excludedOrNeedsFollowUp.",
+  "targetProducts": [
+    "organic soybean meal",
+    "organic soybean cake",
+    "organic soybean expeller",
+    "organic soy flour",
+    "organic full-fat soybean meal",
+    "organic press cake"
+  ],
+  "verifiedCompanies": [
+    {
+      "id": "GOS-001",
+      "previousTierA": true,
+      "country": "France",
+      "companyName": "Partner & Co",
+      "verifiedUrl": "https://www.partnerandco.fr/produit/tourteaux-de-soja-press-bio-import/",
+      "marketSector": "Trader / Feed",
+      "buyingEvidence": "Official product page offers organic soybean press cake, references Regulation (EU) 2018/848 and FR-BIO-10, and describes mechanical cold pressing with solvent-free processing.",
+      "potentialContactPoint": "Purchasing Manager / Responsable Achats Matieres Premieres / Directeur Approvisionnement"
+    },
+    {
+      "id": "GOS-002",
+      "previousTierA": true,
+      "country": "France",
+      "companyName": "UFAB - Union Francaise d'Agriculture Biologique",
+      "verifiedUrl": "https://www.ufab-bio.fr/negoce/soja-bio/",
+      "marketSector": "Trader / Feed",
+      "buyingEvidence": "Official page confirms work with organic soy and states that soybean press cake from pressing is used in organic poultry and cattle feed.",
+      "potentialContactPoint": "Responsable Negoce / Acheteur Matieres Premieres Bio / Responsable Approvisionnement"
+    },
+    {
+      "id": "GOS-003",
+      "previousTierA": true,
+      "country": "Germany",
+      "companyName": "Agriprotein GmbH",
+      "verifiedUrl": "https://agriprotein.de/produkte/",
+      "marketSector": "Feed / Trader / Processor",
+      "buyingEvidence": "Official product information says organic soybeans are mechanically processed, oil is removed by cold pressing, and the output is Bio-Sojakuchen.",
+      "potentialContactPoint": "Rohstoffeinkauf / Leiter Einkauf / Procurement Manager Bio-Rohstoffe"
+    },
+    {
+      "id": "GOS-004",
+      "previousTierA": true,
+      "country": "France",
+      "companyName": "SojaPress / Groupe Terres du Sud",
+      "verifiedUrl": "https://www.groupe-terresdusud.fr/acteur-economie-locale/nos-marques/soja-press",
+      "marketSector": "Feed / Processor",
+      "buyingEvidence": "Official brand page presents organic soybean cake for organic feed and describes the process as mechanical cooking and pressing without chemical products.",
+      "potentialContactPoint": "Responsable Achats Matieres Premieres / Procurement Manager - Nutrition Animale"
+    },
+    {
+      "id": "GOS-005",
+      "previousTierA": true,
+      "country": "Italy",
+      "companyName": "Bio Futuro Srl",
+      "verifiedUrl": "https://www.biofuturosrl.it/per-uso-zootecnico/panello-di-soia-biologico",
+      "marketSector": "Trader / Feed",
+      "buyingEvidence": "Official product page offers certified organic soybean cake or meal obtained through soybean pressing and intended as a high-protein animal feed ingredient.",
+      "potentialContactPoint": "Responsabile Acquisti / Raw Materials Buyer / Direttore Commerciale"
+    },
+    {
+      "id": "GOS-006",
+      "previousTierA": true,
+      "country": "Germany",
+      "companyName": "Olmuhle Mendler",
+      "verifiedUrl": "https://www.oelmuehle-mendler.de/futtermittel/",
+      "marketSector": "Feed / Processor",
+      "buyingEvidence": "Official feed page covers soy and rapeseed press cake and feed oils, cold pressing, and organic oilseed processing.",
+      "potentialContactPoint": "Rohstoffeinkauf / Betriebsleitung Olmuhle / Einkauf Bio-Olsaaten"
+    },
+    {
+      "id": "GOS-007",
+      "previousTierA": true,
+      "country": "Germany",
+      "companyName": "Semhof",
+      "verifiedUrl": "https://www.semhof.de/semhof-bio-sojaflocken.html",
+      "marketSector": "Feed",
+      "buyingEvidence": "Official product page identifies the composition as organic soy cake, explicitly mechanically pressed, without solvents, and not extraction meal.",
+      "potentialContactPoint": "Einkauf Futtermittel / Rohstoffeinkauf / Produktmanagement Tierernahrung"
+    },
+    {
+      "id": "GOS-008",
+      "previousTierA": false,
+      "country": "Australia",
+      "companyName": "Applied Nutrition Pty Ltd",
+      "verifiedUrl": "https://www.appliednutrition.com.au/organic-expeller-soybean-meal",
+      "marketSector": "Feed",
+      "buyingEvidence": "Official product page lists Organic Expeller Soybean Meal for organic and chemical-free livestock diets. The company states HACCP and ISO9001:2015 status and Australian Certified Organic (ACO) plus USDA NOP compliance.",
+      "potentialContactPoint": "Procurement Manager / Raw Materials Buyer / Nutrition and Formulation Manager"
+    },
+    {
+      "id": "GOS-009",
+      "previousTierA": false,
+      "country": "Australia",
+      "companyName": "Mara Global Foods",
+      "verifiedUrl": "https://maraglobalfoods.com.au/protein-meals/",
+      "marketSector": "Feed / Processor",
+      "buyingEvidence": "Official protein-meals page says Mara produces extruded and expelled products and offers protein meals in organic and conventional form. Its defatted and full-fat soybean meals are described as made from Australian soybeans through mechanical, chemical-free processing.",
+      "potentialContactPoint": "Purchasing Manager / Sales and Supply Manager / Protein Meals Commercial Manager"
+    },
+    {
+      "id": "GOS-010",
+      "previousTierA": false,
+      "country": "Australia",
+      "companyName": "PBA Feeds / Hyfeed",
+      "verifiedUrl": "https://www.hyfeed.com.au/about",
+      "marketSector": "Feed / Processor",
+      "buyingEvidence": "Official Hyfeed page says the Toowoomba mill is ACO-certified to manufacture organic non-GMO full-fat soybean meal and expeller soybean meal onsite. It also states PBA Feeds supplies full-fat soybean meal, expeller soybean meal, soybean oil, expeller canola meal and canola oil made onsite.",
+      "potentialContactPoint": "Purchasing Manager / Mill Manager / Feed Ingredients Buyer"
+    },
+    {
+      "id": "GOS-011",
+      "previousTierA": false,
+      "country": "Belgium",
+      "companyName": "Soyl NV",
+      "verifiedUrl": "https://www.soyl.be/en/products",
+      "marketSector": "Feed / Processor / Trader",
+      "buyingEvidence": "Official products page says Soyl works only with organic soybeans from certified organic suppliers and processes them into organic soybean oil and organic soybean expellers. The expellers are used in the animal feed industry and held in strategic stock.",
+      "potentialContactPoint": "Purchasing Manager / Sales Manager Organic Soy / Raw Materials Buyer"
+    },
+    {
+      "id": "GOS-012",
+      "previousTierA": false,
+      "country": "Austria",
+      "companyName": "VFI GmbH - Olmuhle Ennsdorf",
+      "verifiedUrl": "https://vfi.co.at/en/oil-mill-ennsdorf/",
+      "marketSector": "Feed / Processor",
+      "buyingEvidence": "Official Ennsdorf page describes a certified organic expeller press oilseed crushing plant that handles soybean seed and produces organic oils and organic press cakes. It positions press cake as protein feed for agriculture.",
+      "potentialContactPoint": "Feedstuff Sales / Raw Materials Procurement / Oil Mill Operations Manager"
+    },
+    {
+      "id": "GOS-013",
+      "previousTierA": false,
+      "country": "Poland",
+      "companyName": "FODER BIO-TECH",
+      "verifiedUrl": "https://www.foder.com.pl/de/bio-futtermittel",
+      "marketSector": "Feed / Processor",
+      "buyingEvidence": "Official organic feed page says FODER uses certified organic soybeans to make BIO-Sojakuchen. The soybeans are extruded and then organic soybean oil is obtained with mechanical pressing equipment, with no chemical compounds used at any stage.",
+      "potentialContactPoint": "Rohstoffeinkauf / Procurement Manager Organic Feed / Sales Manager Bio-Futtermittel"
+    },
+    {
+      "id": "GOS-014",
+      "previousTierA": false,
+      "country": "Italy",
+      "companyName": "SeedFuture Group",
+      "verifiedUrl": "https://www.seedfuturegroup.com/de/agribio/bio-sojakuchen",
+      "marketSector": "Feed / Protein Brands / Processor",
+      "buyingEvidence": "Official Bio-Sojakuchen page says organic soy cakes are obtained by a mechanical cold process and lists related organic soy products including organic soy oil, organic soy texturization, and organic soy extrusion.",
+      "potentialContactPoint": "Responsabile Acquisti / Procurement Manager Bio Soy / Business Development Agribio"
+    },
+    {
+      "id": "GOS-015",
+      "previousTierA": false,
+      "country": "United States",
+      "companyName": "Simmons Grain Company",
+      "verifiedUrl": "https://www.simmonsgrain.com/organic-products/organic-soybean-oil/",
+      "marketSector": "Feed / Food Ingredients / Processor",
+      "buyingEvidence": "Official organic soybean oil page says the facility is 100 percent organic and that the process used to make soybean meal is mechanical, pressing oil naturally rather than using solvents such as hexane.",
+      "potentialContactPoint": "Procurement Manager / Organic Soybean Buyer / Ingredient Sales Manager"
+    },
+    {
+      "id": "GOS-016",
+      "previousTierA": false,
+      "country": "United States",
+      "companyName": "Majestic Milling Company",
+      "verifiedUrl": "https://www.majesticmilling.com/product-standards",
+      "marketSector": "Feed / Processor",
+      "buyingEvidence": "Official product standards page says Majestic buys USDA #2 organic soybeans, sells high-protein organic soybean meal, and produces expeller-pressed crude organic soybean oil. The page also states Majestic Milling is certified organic by EcoCert USA.",
+      "potentialContactPoint": "Raw Materials Buyer / Procurement Manager / Organic Soybean Meal Sales"
+    },
+    {
+      "id": "GOS-017",
+      "previousTierA": false,
+      "country": "United States",
+      "companyName": "Boyd Station",
+      "verifiedUrl": "https://boydstation.com/expeller-pressed/",
+      "marketSector": "Feed / Food Ingredients / Processor",
+      "buyingEvidence": "Official expeller-pressed page says Boyd produces 100 percent expeller-pressed products using heat and pressure rather than chemicals, eliminates solvents from oil extraction, and offers hexane-free soybean meals for food and feed formulations while maintaining organic and non-GMO production standards.",
+      "potentialContactPoint": "Procurement Manager / Ingredient Sales Manager / Supply Team"
+    },
+    {
+      "id": "GOS-018",
+      "previousTierA": false,
+      "country": "United States",
+      "companyName": "Sheppard Grain Enterprises",
+      "verifiedUrl": "https://sheppardgrain.com/",
+      "marketSector": "Feed / Trader / Processor",
+      "buyingEvidence": "Official homepage says Sheppard Grain mechanically extrudes soybean meal, operates soybean roasting, serves the animal-feed industry, and brokers organic commodities. The site presents organic soybean meal and soybean oil products in its page title.",
+      "potentialContactPoint": "Procurement Manager / Organic Commodity Broker / Sales Manager"
+    },
+    {
+      "id": "GOS-019",
+      "previousTierA": false,
+      "country": "United States",
+      "companyName": "CapRock Grain",
+      "verifiedUrl": "https://caprockgrain.com/products.html",
+      "marketSector": "Trader / Feed",
+      "buyingEvidence": "Official products page says CapRock specializes in grains, meals, and oils that meet organic certification standards, including domestic expelled soybean meal and import expelled soybean meal. The about page states all facilities are certified organic.",
+      "potentialContactPoint": "Organic Feed Ingredients Buyer / Procurement Manager / Trading Desk"
+    },
+    {
+      "id": "GOS-020",
+      "previousTierA": false,
+      "country": "India",
+      "companyName": "Swastik Enterprises",
+      "verifiedUrl": "https://www.iswastik.com/organic-soybean-meal.html",
+      "marketSector": "Feed / Processor / Trader",
+      "buyingEvidence": "Official product page describes organic soybean meal made from organic soybean seed, with further oil extraction by screw press expeller. It says the product is free from hexane or petrochemical products and lists NOP, COR, and EU certified organic specifications.",
+      "potentialContactPoint": "Export Manager / Raw Materials Procurement / Sales Manager Organic Soybean Meal"
+    },
+    {
+      "id": "GOS-021",
+      "previousTierA": false,
+      "country": "Paraguay",
+      "companyName": "AC Worldwide Trading S.A.",
+      "verifiedUrl": "https://acworldwidetrading.com/",
+      "marketSector": "Trader / Feed",
+      "buyingEvidence": "Official site lists organic soybean seeds, organic raw soybean oil obtained by mechanical extraction by pressing, and organic soybean expeller processed using a continuous press. The site describes export activity from South America to North America, Canada, Europe, and Mexico.",
+      "potentialContactPoint": "Export Manager / Procurement Manager / Organic Commodities Trader"
+    }
+  ],
+  "excludedOrNeedsFollowUp": [
+    {
+      "country": "New Zealand",
+      "companyName": "New Zealand organic feed or soy ingredient candidates",
+      "reason": "Search found New Zealand import and phytosanitary references for soybean meal, soy flakes, and single-ingredient feed products, but no official company page was found that explicitly combines organic soy with mechanical pressing, expeller pressing, extrusion-expelling, or solvent-free processing. Do not add a New Zealand company to verifiedCompanies until that evidence is found.",
+      "referenceUrl": "https://micor.agriculture.gov.au/Plants/Pages/New_Zealand_NZ/Soybean_meal.aspx"
+    },
+    {
+      "country": "United States",
+      "companyName": "Ag Com Inc",
+      "reason": "Official page strongly confirms mechanical, chemical-free soybean meal, but the visible page positions the product as all-natural rather than certified organic. Keep for follow-up unless organic certification for the specific soymeal line is confirmed.",
+      "referenceUrl": "https://www.agcominc.com/soybean-processing/"
+    },
+    {
+      "country": "United States",
+      "companyName": "Tiger Soy",
+      "reason": "Historical and third-party text mentions organic and expeller-pressed soy flour, but the current official product pages visible in search show non-GMO soy flours without explicit current organic plus expeller evidence. Keep for follow-up.",
+      "referenceUrl": "https://www.tigersoyllc.com/soybean-products"
+    },
+    {
+      "country": "India",
+      "companyName": "Narmada / solvent-extraction candidates",
+      "reason": "Excluded where official or visible product information suggests solvent or hexane extraction, even if another listing mentions expeller processing.",
+      "referenceUrl": null
+    }
+  ]
+}
