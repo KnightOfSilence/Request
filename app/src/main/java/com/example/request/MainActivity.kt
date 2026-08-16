@@ -45,6 +45,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.font.FontWeight
@@ -356,6 +358,8 @@ private fun CompanyDetailScreen(
                 .verticalScroll(rememberScrollState())
                 .padding(horizontal = 16.dp, vertical = 12.dp),
         ) {
+            LetterheadPreview()
+
             DetailSection(title = "Company") {
                 DetailField(label = "Company Name", value = company.name)
                 DetailField(label = "Country", value = company.country)
@@ -453,7 +457,48 @@ private fun CompanyDetailScreen(
                     Text(text = "Prepare email")
                 }
             }
+
+            LetterheadFooterPreview()
         }
+    }
+}
+
+@Composable
+private fun LetterheadPreview() {
+    DetailSection(title = "Sender letterhead") {
+        androidx.compose.foundation.Image(
+            painter = painterResource(id = R.drawable.impex_letterhead_header),
+            contentDescription = "IMPEX AGRO TRADE DOO NOVI SAD letterhead",
+            contentScale = ContentScale.FillWidth,
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(62.dp),
+        )
+        DetailField(label = "Sender", value = "IMPEX AGRO TRADE DOO NOVI SAD")
+        DetailField(label = "Product line", value = "Organic soybean meal")
+        DetailField(label = "Email", value = "office@impexagrotrade.rs")
+        DetailField(label = "Phone", value = "+381 637 147 554")
+    }
+}
+
+@Composable
+private fun LetterheadFooterPreview() {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.surfaceContainer,
+        ),
+        shape = RoundedCornerShape(8.dp),
+    ) {
+        androidx.compose.foundation.Image(
+            painter = painterResource(id = R.drawable.impex_letterhead_footer),
+            contentDescription = "IMPEX AGRO TRADE director signature footer",
+            contentScale = ContentScale.FillWidth,
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(72.dp)
+                .padding(horizontal = 12.dp, vertical = 8.dp),
+        )
     }
 }
 
