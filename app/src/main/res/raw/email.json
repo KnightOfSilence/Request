@@ -1,0 +1,468 @@
+{
+  "generatedAt": "2026-08-17",
+  "sourceResource": "app/src/main/res/raw/companies.json",
+  "description": "Email-only outreach resource extracted from Companies. Contains only addresses found on official or company-controlled pages and keeps company context for review before sending.",
+  "totalCompanies": 36,
+  "totalCompaniesWithEmail": 17,
+  "totalEmailAddresses": 21,
+  "emails": [
+    {
+      "email": "orders@maraglobalfoods.com.au",
+      "companyId": "GOS-009",
+      "companyName": "Mara Global Foods",
+      "country": "Australia",
+      "marketSector": "Feed / Processor",
+      "potentialContactPoint": "Purchasing Manager / Sales and Supply Manager / Protein Meals Commercial Manager",
+      "verifiedUrl": "https://maraglobalfoods.com.au/protein-meals/",
+      "emailEvidenceUrl": "https://maraglobalfoods.com.au/contact/",
+      "verificationStatus": "verified"
+    },
+    {
+      "email": "sales@hyfeed.com.au",
+      "companyId": "GOS-010",
+      "companyName": "PBA Feeds / Hyfeed",
+      "country": "Australia",
+      "marketSector": "Feed / Processor",
+      "potentialContactPoint": "Purchasing Manager / Mill Manager / Feed Ingredients Buyer",
+      "verifiedUrl": "https://www.hyfeed.com.au/about",
+      "emailEvidenceUrl": "https://www.hyfeed.com.au/about",
+      "verificationStatus": "verified"
+    },
+    {
+      "email": "sales@soyl.be",
+      "companyId": "GOS-011",
+      "companyName": "Soyl NV",
+      "country": "Belgium",
+      "marketSector": "Feed / Processor / Trader",
+      "potentialContactPoint": "Purchasing Manager / Sales Manager Organic Soy / Raw Materials Buyer",
+      "verifiedUrl": "https://www.soyl.be/en/products",
+      "emailEvidenceUrl": "https://www.soyl.be/en/contact",
+      "verificationStatus": "verified"
+    },
+    {
+      "email": "oelmuehle@vfi-oilsforlife.com",
+      "companyId": "GOS-012",
+      "companyName": "VFI GmbH - Olmuhle Ennsdorf",
+      "country": "Austria",
+      "marketSector": "Feed / Processor",
+      "potentialContactPoint": "Feedstuff Sales / Raw Materials Procurement / Oil Mill Operations Manager",
+      "verifiedUrl": "https://vfi.co.at/en/oil-mill-ennsdorf/",
+      "emailEvidenceUrl": "https://vfi.co.at/en/oil-mill-ennsdorf/",
+      "verificationStatus": "verified"
+    },
+    {
+      "email": "eric@simmonsgrain.com",
+      "companyId": "GOS-015",
+      "companyName": "Simmons Grain Company",
+      "country": "United States",
+      "marketSector": "Feed / Food Ingredients / Processor",
+      "potentialContactPoint": "Procurement Manager / Organic Soybean Buyer / Ingredient Sales Manager",
+      "verifiedUrl": "https://www.simmonsgrain.com/organic-products/organic-soybean-oil/",
+      "emailEvidenceUrl": "https://www.simmonsgrain.com/",
+      "verificationStatus": "verified"
+    },
+    {
+      "email": "annette@simmonsgrain.com",
+      "companyId": "GOS-015",
+      "companyName": "Simmons Grain Company",
+      "country": "United States",
+      "marketSector": "Feed / Food Ingredients / Processor",
+      "potentialContactPoint": "Procurement Manager / Organic Soybean Buyer / Ingredient Sales Manager",
+      "verifiedUrl": "https://www.simmonsgrain.com/organic-products/organic-soybean-oil/",
+      "emailEvidenceUrl": "https://www.simmonsgrain.com/",
+      "verificationStatus": "verified"
+    },
+    {
+      "email": "info@boydstation.com",
+      "companyId": "GOS-017",
+      "companyName": "Boyd Station",
+      "country": "United States",
+      "marketSector": "Feed / Food Ingredients / Processor",
+      "potentialContactPoint": "Procurement Manager / Ingredient Sales Manager / Supply Team",
+      "verifiedUrl": "https://boydstation.com/expeller-pressed/",
+      "emailEvidenceUrl": "https://boydstation.com/feed-ingredients/",
+      "verificationStatus": "verified"
+    },
+    {
+      "email": "rford@boydstation.com",
+      "companyId": "GOS-017",
+      "companyName": "Boyd Station",
+      "country": "United States",
+      "marketSector": "Feed / Food Ingredients / Processor",
+      "potentialContactPoint": "Procurement Manager / Ingredient Sales Manager / Supply Team",
+      "verifiedUrl": "https://boydstation.com/expeller-pressed/",
+      "emailEvidenceUrl": "https://boydstation.com/feed-ingredients/",
+      "verificationStatus": "verified"
+    },
+    {
+      "email": "info@caprockgrain.com",
+      "companyId": "GOS-019",
+      "companyName": "CapRock Grain",
+      "country": "United States",
+      "marketSector": "Trader / Feed",
+      "potentialContactPoint": "Organic Feed Ingredients Buyer / Procurement Manager / Trading Desk",
+      "verifiedUrl": "https://caprockgrain.com/products.html",
+      "emailEvidenceUrl": "https://www.caprockgrain.com/contact.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "email": "tianwei@tianweibiotech.com",
+      "companyId": "GOS-022",
+      "companyName": "Tianwei Group",
+      "country": "China",
+      "marketSector": "Feed / Processor / Trader",
+      "potentialContactPoint": "Export Manager / Organic Soy Products Sales / Raw Materials Sales",
+      "verifiedUrl": "https://www.tianwei-group.com/showroom/organic-extruded-soybean-meal/",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "verified"
+    },
+    {
+      "email": "export@tianweibiotech.com",
+      "companyId": "GOS-022",
+      "companyName": "Tianwei Group",
+      "country": "China",
+      "marketSector": "Feed / Processor / Trader",
+      "potentialContactPoint": "Export Manager / Organic Soy Products Sales / Raw Materials Sales",
+      "verifiedUrl": "https://www.tianwei-group.com/showroom/organic-extruded-soybean-meal/",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "verified"
+    },
+    {
+      "email": "info@naturebiofoods.organic",
+      "companyId": "GOS-023",
+      "companyName": "Nature Bio Foods",
+      "country": "India",
+      "marketSector": "Feed / Processor / Trader",
+      "potentialContactPoint": "Export Sales Manager / Organic Soybean Meal Sales / Procurement Manager",
+      "verifiedUrl": "https://naturebiofoods.organic/organic-soybean-meal/",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "verified"
+    },
+    {
+      "email": "helpdesk@anandagro.com",
+      "companyId": "GOS-025",
+      "companyName": "Anand Agro",
+      "country": "India",
+      "marketSector": "Feed / Processor",
+      "potentialContactPoint": "Export Manager / Organic Soybean Processing Sales / Raw Materials Buyer",
+      "verifiedUrl": "https://www.anandagro.com/project-details.html",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "verified"
+    },
+    {
+      "email": "hp@hanpel.com",
+      "companyId": "GOS-026",
+      "companyName": "HANPEL TECH CO., LTD",
+      "country": "South Korea",
+      "marketSector": "Feed / Protein Ingredients / Trader",
+      "potentialContactPoint": "Purchasing Manager / Feed Ingredients Manager / Functional Protein Sales",
+      "verifiedUrl": "https://hanpel.com/en",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "user_requested_verified"
+    },
+    {
+      "email": "kings@k-ings.co.kr",
+      "companyId": "GOS-027",
+      "companyName": "K-INGS Co., Ltd.",
+      "country": "South Korea",
+      "marketSector": "Feed / Trader",
+      "potentialContactPoint": "Feed Raw Materials Buyer / Procurement Manager / Import Manager",
+      "verifiedUrl": "https://k-ings.co.kr/02/list.php?b_category1=5",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "user_requested_verified"
+    },
+    {
+      "email": "info@organex.com.pk",
+      "companyId": "GOS-028",
+      "companyName": "Organex Pvt Ltd",
+      "country": "Pakistan",
+      "marketSector": "Trader / Feed",
+      "potentialContactPoint": "Export Manager / Feed Ingredients Sales / Business Development",
+      "verifiedUrl": "https://organex.com.pk/",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "user_requested_verified"
+    },
+    {
+      "email": "toi@khalisgroup.com",
+      "companyId": "GOS-029",
+      "companyName": "Khalis Manufacturing / Khalis Group",
+      "country": "Pakistan",
+      "marketSector": "Feed / Processor",
+      "potentialContactPoint": "Raw Materials Procurement / Export Sales / Oilseed Processing Manager",
+      "verifiedUrl": "https://en.khalisgroup.com/khalis-Manufacturing.html",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "user_requested_verified"
+    },
+    {
+      "email": "supply@greenmiller.com",
+      "companyId": null,
+      "companyName": "Green Miller International",
+      "country": "India",
+      "marketSector": "Feed / Trader",
+      "potentialContactPoint": "Supply Manager / Export Sales Manager / Organic Feed Ingredients Sales",
+      "verifiedUrl": "https://greenmiller.com/organic-soy-meal/",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "needs_follow_up"
+    },
+    {
+      "email": "anirudh@earthbiochem.com",
+      "companyId": null,
+      "companyName": "Earth Biochem",
+      "country": "India",
+      "marketSector": "Feed / Processor / Trader",
+      "potentialContactPoint": "Export Manager / Organic Soy Meal Sales / Business Development",
+      "verifiedUrl": "https://organicsoyabean.com/",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "needs_follow_up"
+    },
+    {
+      "email": "info@earthbiochem.com",
+      "companyId": null,
+      "companyName": "Earth Biochem",
+      "country": "India",
+      "marketSector": "Feed / Processor / Trader",
+      "potentialContactPoint": "Export Manager / Organic Soy Meal Sales / Business Development",
+      "verifiedUrl": "https://organicsoyabean.com/",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "needs_follow_up"
+    },
+    {
+      "email": "support@svfsoya.com",
+      "companyId": null,
+      "companyName": "SVF Soya Pvt. Ltd.",
+      "country": "India",
+      "marketSector": "Feed / Processor",
+      "potentialContactPoint": "Sales Manager / Feed Ingredients Sales / Procurement Manager",
+      "verifiedUrl": "https://www.svfsoya.com/products/soya-meal",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "needs_follow_up"
+    }
+  ],
+  "companies": [
+    {
+      "id": "GOS-009",
+      "companyName": "Mara Global Foods",
+      "country": "Australia",
+      "marketSector": "Feed / Processor",
+      "contactEmail": [
+        "orders@maraglobalfoods.com.au"
+      ],
+      "potentialContactPoint": "Purchasing Manager / Sales and Supply Manager / Protein Meals Commercial Manager",
+      "verifiedUrl": "https://maraglobalfoods.com.au/protein-meals/",
+      "emailEvidenceUrl": "https://maraglobalfoods.com.au/contact/",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "GOS-010",
+      "companyName": "PBA Feeds / Hyfeed",
+      "country": "Australia",
+      "marketSector": "Feed / Processor",
+      "contactEmail": [
+        "sales@hyfeed.com.au"
+      ],
+      "potentialContactPoint": "Purchasing Manager / Mill Manager / Feed Ingredients Buyer",
+      "verifiedUrl": "https://www.hyfeed.com.au/about",
+      "emailEvidenceUrl": "https://www.hyfeed.com.au/about",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "GOS-011",
+      "companyName": "Soyl NV",
+      "country": "Belgium",
+      "marketSector": "Feed / Processor / Trader",
+      "contactEmail": [
+        "sales@soyl.be"
+      ],
+      "potentialContactPoint": "Purchasing Manager / Sales Manager Organic Soy / Raw Materials Buyer",
+      "verifiedUrl": "https://www.soyl.be/en/products",
+      "emailEvidenceUrl": "https://www.soyl.be/en/contact",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "GOS-012",
+      "companyName": "VFI GmbH - Olmuhle Ennsdorf",
+      "country": "Austria",
+      "marketSector": "Feed / Processor",
+      "contactEmail": [
+        "oelmuehle@vfi-oilsforlife.com"
+      ],
+      "potentialContactPoint": "Feedstuff Sales / Raw Materials Procurement / Oil Mill Operations Manager",
+      "verifiedUrl": "https://vfi.co.at/en/oil-mill-ennsdorf/",
+      "emailEvidenceUrl": "https://vfi.co.at/en/oil-mill-ennsdorf/",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "GOS-015",
+      "companyName": "Simmons Grain Company",
+      "country": "United States",
+      "marketSector": "Feed / Food Ingredients / Processor",
+      "contactEmail": [
+        "eric@simmonsgrain.com",
+        "annette@simmonsgrain.com"
+      ],
+      "potentialContactPoint": "Procurement Manager / Organic Soybean Buyer / Ingredient Sales Manager",
+      "verifiedUrl": "https://www.simmonsgrain.com/organic-products/organic-soybean-oil/",
+      "emailEvidenceUrl": "https://www.simmonsgrain.com/",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "GOS-017",
+      "companyName": "Boyd Station",
+      "country": "United States",
+      "marketSector": "Feed / Food Ingredients / Processor",
+      "contactEmail": [
+        "info@boydstation.com",
+        "rford@boydstation.com"
+      ],
+      "potentialContactPoint": "Procurement Manager / Ingredient Sales Manager / Supply Team",
+      "verifiedUrl": "https://boydstation.com/expeller-pressed/",
+      "emailEvidenceUrl": "https://boydstation.com/feed-ingredients/",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "GOS-019",
+      "companyName": "CapRock Grain",
+      "country": "United States",
+      "marketSector": "Trader / Feed",
+      "contactEmail": [
+        "info@caprockgrain.com"
+      ],
+      "potentialContactPoint": "Organic Feed Ingredients Buyer / Procurement Manager / Trading Desk",
+      "verifiedUrl": "https://caprockgrain.com/products.html",
+      "emailEvidenceUrl": "https://www.caprockgrain.com/contact.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "GOS-022",
+      "companyName": "Tianwei Group",
+      "country": "China",
+      "marketSector": "Feed / Processor / Trader",
+      "contactEmail": [
+        "tianwei@tianweibiotech.com",
+        "export@tianweibiotech.com"
+      ],
+      "potentialContactPoint": "Export Manager / Organic Soy Products Sales / Raw Materials Sales",
+      "verifiedUrl": "https://www.tianwei-group.com/showroom/organic-extruded-soybean-meal/",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "GOS-023",
+      "companyName": "Nature Bio Foods",
+      "country": "India",
+      "marketSector": "Feed / Processor / Trader",
+      "contactEmail": [
+        "info@naturebiofoods.organic"
+      ],
+      "potentialContactPoint": "Export Sales Manager / Organic Soybean Meal Sales / Procurement Manager",
+      "verifiedUrl": "https://naturebiofoods.organic/organic-soybean-meal/",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "GOS-025",
+      "companyName": "Anand Agro",
+      "country": "India",
+      "marketSector": "Feed / Processor",
+      "contactEmail": [
+        "helpdesk@anandagro.com"
+      ],
+      "potentialContactPoint": "Export Manager / Organic Soybean Processing Sales / Raw Materials Buyer",
+      "verifiedUrl": "https://www.anandagro.com/project-details.html",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "verified"
+    },
+    {
+      "id": "GOS-026",
+      "companyName": "HANPEL TECH CO., LTD",
+      "country": "South Korea",
+      "marketSector": "Feed / Protein Ingredients / Trader",
+      "contactEmail": [
+        "hp@hanpel.com"
+      ],
+      "potentialContactPoint": "Purchasing Manager / Feed Ingredients Manager / Functional Protein Sales",
+      "verifiedUrl": "https://hanpel.com/en",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "user_requested_verified"
+    },
+    {
+      "id": "GOS-027",
+      "companyName": "K-INGS Co., Ltd.",
+      "country": "South Korea",
+      "marketSector": "Feed / Trader",
+      "contactEmail": [
+        "kings@k-ings.co.kr"
+      ],
+      "potentialContactPoint": "Feed Raw Materials Buyer / Procurement Manager / Import Manager",
+      "verifiedUrl": "https://k-ings.co.kr/02/list.php?b_category1=5",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "user_requested_verified"
+    },
+    {
+      "id": "GOS-028",
+      "companyName": "Organex Pvt Ltd",
+      "country": "Pakistan",
+      "marketSector": "Trader / Feed",
+      "contactEmail": [
+        "info@organex.com.pk"
+      ],
+      "potentialContactPoint": "Export Manager / Feed Ingredients Sales / Business Development",
+      "verifiedUrl": "https://organex.com.pk/",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "user_requested_verified"
+    },
+    {
+      "id": "GOS-029",
+      "companyName": "Khalis Manufacturing / Khalis Group",
+      "country": "Pakistan",
+      "marketSector": "Feed / Processor",
+      "contactEmail": [
+        "toi@khalisgroup.com"
+      ],
+      "potentialContactPoint": "Raw Materials Procurement / Export Sales / Oilseed Processing Manager",
+      "verifiedUrl": "https://en.khalisgroup.com/khalis-Manufacturing.html",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "user_requested_verified"
+    },
+    {
+      "id": null,
+      "companyName": "Green Miller International",
+      "country": "India",
+      "marketSector": "Feed / Trader",
+      "contactEmail": [
+        "supply@greenmiller.com"
+      ],
+      "potentialContactPoint": "Supply Manager / Export Sales Manager / Organic Feed Ingredients Sales",
+      "verifiedUrl": "https://greenmiller.com/organic-soy-meal/",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "needs_follow_up"
+    },
+    {
+      "id": null,
+      "companyName": "Earth Biochem",
+      "country": "India",
+      "marketSector": "Feed / Processor / Trader",
+      "contactEmail": [
+        "anirudh@earthbiochem.com",
+        "info@earthbiochem.com"
+      ],
+      "potentialContactPoint": "Export Manager / Organic Soy Meal Sales / Business Development",
+      "verifiedUrl": "https://organicsoyabean.com/",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "needs_follow_up"
+    },
+    {
+      "id": null,
+      "companyName": "SVF Soya Pvt. Ltd.",
+      "country": "India",
+      "marketSector": "Feed / Processor",
+      "contactEmail": [
+        "support@svfsoya.com"
+      ],
+      "potentialContactPoint": "Sales Manager / Feed Ingredients Sales / Procurement Manager",
+      "verifiedUrl": "https://www.svfsoya.com/products/soya-meal",
+      "emailEvidenceUrl": null,
+      "verificationStatus": "needs_follow_up"
+    }
+  ]
+}
